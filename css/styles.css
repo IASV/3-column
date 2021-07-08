@@ -8,17 +8,17 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    padding: 10% 0%;
+    padding: 14% 20%;
     color: hsl(0, 0%, 95%);
     font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
-    border-radius: 5px;
     width: 80%;
+    border-radius: 5px;  
     overflow: hidden;
     min-width: 310px;
 }
@@ -26,8 +26,8 @@ body{
 .section{
     display: flex;
     flex-wrap: wrap;
-    padding: 40px;
-    width: 33.3333333%;
+    padding: 40px; 
+    width: 33.333333%;   
     color: white;
     transition-duration: 0.5s;
 }
@@ -52,7 +52,7 @@ body{
 }
 
 .section button{
-    margin-top: 80px;
+    margin-top: 100px;
     padding: 10px 20px;
     outline: none;
     border: 2px solid white;
@@ -107,10 +107,10 @@ body{
 .attribution{
     width: 100%;
     color: black;
-    margin-top: 10%;
+    margin-top: 1%;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1250px){
     .section{
         width: 100%;
     }
